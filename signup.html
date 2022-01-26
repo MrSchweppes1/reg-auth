@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="signupstyle.css">
+</head>
+
+<body>
+    <div class="white_container">
+        <div class="row_line">
+            <a href="index.html" id="noactive_title"> Авторизация</a>
+            <a href="signup.html" id="active_title"> Регистрация</a>
+
+        </div>
+        <form action="">
+            <div class="reg">
+                <input type="text" placeholder="Имя" id="log">
+            </div>
+            <div class="reg">
+                <input type="password" placeholder="Пароль">
+            </div>
+            <div class="reg">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="reg">
+                <label for="">Введите дату рождения</label>
+                <input title="Дата рождения" type="date">
+            </div>
+            <div class="reg">
+                <label for="">Выберите пол</label>
+                <input type="radio" name="gender" id="Male"><label for="Male">М</label>
+                <input type="radio" name="gender" id="Female"><label for="Female">Ж</label>
+            </div>
+
+            <div class="reg">
+                <label for="country">Выберите страну</label>
+                <select name="Страны">
+                    <option value="">Япония</option>
+                    <option value="">Россия</option>
+                    <option value="">Америка</option>
+                </select>
+            </div>
+            <div class="reg">
+                <input type="checkbox" id="check">
+                <label id="LabCh" for="check">Согласен на обработку данных</label>
+                
+            </div>
+            <input type="submit" value="Зарегестрироватсья" id="">
+        </form>
+    </div>
+</body>
+
+</html>

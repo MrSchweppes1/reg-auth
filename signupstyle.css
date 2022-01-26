@@ -1,0 +1,97 @@
+*{
+    font-family: Arial,sans-serif;
+}
+body{
+    background-color: #8C4BFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.white_container{
+    background-color: white;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 512px;
+    height: 640px;
+    border-radius: 30px;
+}
+
+.row_line{
+margin-top: 141px;
+transition: 0.3s;
+}
+
+.row_line a{
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#noactive_title:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+#active_title{
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-right: 18px;
+}
+
+form{
+    margin-top: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    width: 256px;
+    outline: 0px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.reg{
+    display: flex;   
+    align-items: center; 
+    justify-content:center ;
+    margin-top: 20px;
+    width: 260px;
+}
+
+select{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 195px;
+}
+
+#check{
+    width: auto;
+}
+
+
+input[type = submit]{   
+    margin-top: 15px;
+    width: 409px;
+    height: 64px;
+    border-radius: 30px;
+    color: white;
+    background-color: #554DFF;
+    border: none;
+    transition: 0.5s;
+}
+
+input[type = submit]:hover{   
+    width: 500px;
+    background-color: #8C4BFD;
+    transition: 0.5s;
+}
